@@ -2532,7 +2532,7 @@ class Logger:
 
 
 #Firefox Profile path. Set to None for default Webdriver profile
-##ffp = None
+ffp = None
 
 #Alan's profile
 ##ffp = r"C:\Documents and Settings\mayd-a\Application Data\Mozilla\Firefox\Profiles\5inetlzq.default"
@@ -2541,9 +2541,10 @@ class Logger:
 ##ffp = r"C:\Documents and Settings\bky41l\Application Data\Mozilla\Firefox\Profiles\q1ah1cwy.default"
 
 #Copy of Alan's profile
-ffp = r"E:\Test\Products\Technical Infrastructure\Redcentric Hosting\02TestDesign\Automation\SeleniumScripts\CCMS\RedcentricSTG10attempt\firefox_profile"
+##ffp = r"E:\Test\Products\Technical Infrastructure\Redcentric Hosting\02TestDesign\Automation\SeleniumScripts\CCMS\RedcentricSTG10attempt\firefox_profile"
+
 #Same as above but path obtained automatically from cwd.
-ffp = os.path.join(os.getcwd(),"firefox_profile")
+##ffp = os.path.join(os.getcwd(),"firefox_profile")
 
 #Excel Filename
 ##excel_filename = "FAM_3 Housing(1.0).xlsx"
